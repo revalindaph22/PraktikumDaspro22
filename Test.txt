@@ -1,1 +1,7 @@
+<<<<<<< HEAD
 Hello Wolrd, ini file random cihuyy
+=======
+Hello Wolrd, ini file random cihuyy
+cihuyyy
+mantap
+>>>>>>> 934ceab0f6d42f02c536cd829bd4cb7525efa19e
