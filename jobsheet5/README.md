@@ -1,2 +1,1 @@
-Apa fungsi sari sintaks break? Untuk menghentikan pembacaan dari program agar program berhenti dan tidak membaca case dibawahnya
-Apa peran dari sintaks default pada struktur pemilihan SWITCH-CASE? Perannya sebagai pernyataan akhir jika semua case false. 
+Apa yang terjadi jikaa mahasiswa "No" pada pertanyaan bebas kompen?
