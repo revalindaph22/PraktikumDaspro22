@@ -8,10 +8,12 @@ public class IFCetakKRS22 {
         System.out.print("Apakah UKT sudah lunas? (true/false): ");
         boolean uktLunas = sc.nextBoolean();
 
-        if (uktLunas) {
-            System.out.println("Pembayaran UKT terverifikasi");
-            System.out.println("Silahkan cetak KRS dan minta tanda tangan DPA");
+        String hasil = (uktLunas) ?
+            "Pembayaran UKT terverifikasi" :
+            "Silahkan cetak KRS dan minta tanda tangan DPA";
+
+        System.out.println(hasil);
             sc.close();
         }
     }
-}
+
