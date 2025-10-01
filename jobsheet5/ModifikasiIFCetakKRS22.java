@@ -1,9 +1,11 @@
 package jobsheet5;
+
 import java.util.Scanner;
 
-public class IFCetakKRS22 {
+public class ModifikasiIFCetakKRS22 {
+
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+         Scanner sc = new Scanner(System.in);
         System.out.println("--- Cetak KRS SIAKAD ---");
         System.out.print("Apakah UKT sudah lunas? (true/false): ");
         boolean uktLunas = sc.nextBoolean();
@@ -11,7 +13,10 @@ public class IFCetakKRS22 {
         if (uktLunas) {
             System.out.println("Pembayaran UKT terverifikasi");
             System.out.println("Silahkan cetak KRS dan minta tanda tangan DPA");
-            sc.close();
+        }else{
+            System.out.println("Registrasi ditolak");
+            System.out.println("Silahkan lunasi UKT terlebih dahulu");
         }
+            sc.close();
     }
 }
