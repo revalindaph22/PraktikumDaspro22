@@ -1,2 +1,2 @@
-Mengapa pengecekan pada struktur IF tersebut tidak melibatkan kondisi dengan operator relasional? Karena IF hanya menentukan dua jawaban antara True/False dan tidak membandingkan terhadap nilai lain, jadi tidak perlu pakai operator relasional.
-Saat program dijalankan, kemudian Anda mengisikan false, bagaimana hasilnya? Hasil tidak akan keluar dan pembayaran UKT tidak akan terverifikasi.
+Apa fungsi sari sintaks break? Untuk menghentikan pembacaan dari program agar program berhenti dan tidak membaca case dibawahnya
+Apa peran dari sintaks default pada struktur pemilihan SWITCH-CASE? Perannya sebagai pernyataan akhir jika semua case false. 
